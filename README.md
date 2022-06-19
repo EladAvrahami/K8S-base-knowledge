@@ -1,6 +1,7 @@
-# K8S-base-knowledge
-base knowledge - kubernetes
+# K8S - kubernetes base knowledge
 
+
+Node is Virtual or physical machine
 <pre>  
 2 types of nodes: 
 "master" - manager node-it contain api server ,schedualer,controller manager(what happend in the cluster) and backing store.
