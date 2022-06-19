@@ -12,18 +12,21 @@ The thing that connect master and slave nodes inside of the cluster called "Virt
 what is k8s pod ? 
  <pre>
 Pod is the smallest unit in k8s
-it craete a layer on top of the container,k8s can controll,each pod get unique ip adress that comes with k8s (VN) when creating the pod and that ip adress make it possible to them to communicate each other. 
+it craete a layer on top of the container,k8s can controll,each pod get unique ip adress that comes with k8s (VN)
+when creating the pod and that ip adress make it possible to them to communicate each other. 
+
 pay attention! pod can die very easly by server failer and more...and whaen you uploude new pod it will have new ip adress
 so in order to keep adresses order we will use service.
  </pre>
  
  What is k8s service ? 
  <pre>
-service methode is give a static ip adress to pod so even if it die the service process can be relate the new pod adress just as the old one.
-In order to get access to your app trow browser you should have EXTERNAL SERVICE ,but in order to get to adress to pod but without premmision to acces trow browser
-(just like DB premission) we will use INTERNAL SERVICE.
-When we want to get into pod servuce by browser we need to write http//: 123.456.67.89 in order to change this way and get more clear
-adress we will use INGRES that convert url string to the right pod ip adress.
+service methode is give a static ip adress to pod so even if it die the service process can be relate the
+new pod adress just as the old one.
+In order to get access to your app trow browser you should have EXTERNAL SERVICE ,but in order to get to adress to pod but 
+without premmision to acces trow browser(just like DB premission) we will use INTERNAL SERVICE.
+When we want to get into pod servuce by browser we need to write http//: 123.456.67.89 in order to change this way 
+and get more clearadress we will use INGRES that convert url string to the right pod ip adress.
 </pre>
 
 ConfigMap
