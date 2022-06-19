@@ -1,6 +1,5 @@
 
 ### K8S - kubernetes base knowledge:</br>
-#### redis general cli commands (after starting redis server) : 
 Node is Virtual or physical machine
 <pre>  
 There are 2 types of nodes: 
