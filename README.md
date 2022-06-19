@@ -1,4 +1,4 @@
-# K8S - kubernetes base knowledge
+### K8S - kubernetes base knowledge
 
 
 Node is Virtual or physical machine
@@ -9,9 +9,10 @@ There are 2 types of nodes:
 </br>
 The thing that connect master and slave nodes inside of the cluster called "Virtual Network".
 <pre>
- what is k8s pod ? 
+
+what is k8s pod ? 
  <pre>
-pod is the smallest unit in k8s
+Pod is the smallest unit in k8s
 it craete a layer on top of the container,k8s can controll,each pod get unique ip adress that comes with k8s (VN) when creating the pod and that ip adress make it possible to them to communicate each other. 
 pay attention! pod can die very easly by server failer and more...and whaen you uploude new pod it will have new ip adress
 so in order to keep adresses order we will use service.
@@ -19,10 +20,11 @@ so in order to keep adresses order we will use service.
  
  What is k8s service ? 
  <pre>
-service methode is give static ip adress to pod so even if it die the service process can be relate the new pod adress just as the old one.
-
-
+service methode is give a static ip adress to pod so even if it die the service process can be relate the new pod adress just as the old one.
+In order to get access to your app trow browser you should have EXTERNAL SERVICE ,but in order to get to adress to pod but without premmision to acces trow browser
+(just like DB premission) we will use INTERNAL SERVICE.
 </pre>
+
 
 
 <!-- https://www.youtube.com/watch?v=s_o8dwzRlu4  -->
