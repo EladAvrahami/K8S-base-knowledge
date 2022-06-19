@@ -23,7 +23,11 @@ so in order to keep adresses order we will use service.
 service methode is give a static ip adress to pod so even if it die the service process can be relate the new pod adress just as the old one.
 In order to get access to your app trow browser you should have EXTERNAL SERVICE ,but in order to get to adress to pod but without premmision to acces trow browser
 (just like DB premission) we will use INTERNAL SERVICE.
+When we want to get into pod servuce by browser we need to write http//: 123.456.67.89 in order to change this way and get more clear
+adress we will use INGRES that convert url string to the right pod ip adress.
 </pre>
+
+ConfigMap
 
 
 
