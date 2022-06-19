@@ -6,7 +6,7 @@ Node is Virtual or physical machine
 There are 2 types of nodes: 
 "master" - manager node-it contain api server ,schedualer,controller manager(what happend in the cluster) and backing store.
 "slave" - worker nodes contain buisness logice ,they are controlled by the master node. has at least 60% of cpu.
-
+</br>
 The thing that connect master and slave nodes inside of the cluster called "Virtual Network".
 <pre>
  what is k8s pod ? 
