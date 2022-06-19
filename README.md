@@ -1,6 +1,6 @@
-### K8S - kubernetes base knowledge
 
-
+### K8S - kubernetes base knowledge:</br>
+#### redis general cli commands (after starting redis server) : 
 Node is Virtual or physical machine
 <pre>  
 There are 2 types of nodes: 
@@ -8,7 +8,7 @@ There are 2 types of nodes:
 "slave" - worker nodes contain buisness logice ,they are controlled by the master node. has at least 60% of cpu.
 </br>
 The thing that connect master and slave nodes inside of the cluster called "Virtual Network".
-<pre>
+</pre>
 
 what is k8s pod ? 
  <pre>
