@@ -9,7 +9,7 @@ There are 2 types of nodes:
 The thing that connect master and slave nodes inside of the cluster called "Virtual Network".
 </pre>
 
-what is k8s pod ? 
+what is k8s Pod ? 
  <pre>
 Pod is the smallest unit in k8s
 it craete a layer on top of the container,k8s can controll,each pod get unique ip adress that comes with k8s (VN)
@@ -19,7 +19,7 @@ pay attention! pod can die very easly by server failer and more...and whaen you 
 so in order to keep adresses order we will use service.
  </pre>
  
- What is k8s service ? 
+ What is k8s Service ? 
  <pre>
 service methode is give a static ip adress to pod so even if it die the service process can be relate the
 new pod adress just as the old one.
