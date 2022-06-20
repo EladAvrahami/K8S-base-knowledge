@@ -30,6 +30,9 @@ and get more clearadress we will use INGRES that convert url string to the right
 </pre>
 
 ConfigMap
+<pre>
+Its the place that contain configuration data like urls of the services (like db)
+</pre>
 
 
 
