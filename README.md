@@ -9,7 +9,7 @@ There are 2 types of nodes:
 The thing that connect master and slave nodes inside of the cluster called "Virtual Network".
 </pre>
 
-what is k8s Pod ? 
+What is k8s Pod ? 
  <pre>
 Pod is the smallest unit in k8s
 it craete a layer on top of the container,k8s can controll,each pod get unique ip adress that comes with k8s (VN)
